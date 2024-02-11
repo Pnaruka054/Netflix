@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+body {
+  background-image: url("../media/image6.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main1 {
+  width: 100%;
+  min-width: 300px;
+}
+
+#main1blackbackground {
+  background-image: radial-gradient(
+    rgba(0, 0, 0, 0.384) 10%,
+    rgba(0, 0, 0, 0.788) 100%
+  );
+  height: 100%;
+  width: 100%;
+}
+
+#main1child1 {
+  height: auto;
+  padding: 1.4% 2%;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+#main1child1 img {
+  width: 180px;
+}
+
+#main1child2 {
+  background-color: rgba(0, 0, 0, 0.726);
+  border-radius: 2px;
+  margin: 0 auto 7% auto;
+  width: 460px;
+  height: 650px;
+}
+
+#main1child2id1 {
+  padding: 10% 15%;
+  height: 100%;
+}
+
+#main1h1 {
+  color: white;
+  font-size: 18px;
+  font-family: "Mukta", sans-serif;
+}
+
+#main1input1 {
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#main1input1 input {
+  width: 100%;
+  height: 55px;
+  color: white;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color: rgb(61, 61, 61);
+  padding-left: 20px;
+  padding-top: 8px;
+  border-style: none;
+}
+
+#main1input1 input::placeholder {
+  color: rgb(165, 165, 165);
+  font-size: 17px;
+  font-family: "Mukta", sans-serif;
+}
+
+#main1a1 button {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(199, 8, 8);
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 48px;
+}
+
+#main1checkbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: rgb(168, 166, 166);
+  font-family: Arial, Helvetica, sans-serif;
+  height: 50px;
+}
+
+#main1checkbox a {
+  color: rgb(168, 166, 166);
+}
+
+#main1chackboxid1 input[type="checkbox"] {
+  height: 16px;
+  width: 16px;
+  accent-color: rgb(151, 151, 151);
+}
+
+#main1pa1 {
+  color: rgb(133, 133, 133);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main1pa1id1 {
+  display: flex;
+  font-size: 17px;
+  align-items: flex-end;
+  height: 80px;
+}
+
+#main1pa1id1 a {
+  color: white;
+  font-size: 18px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+#main1pa1id2 p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+#main1pa1id2 a {
+  font-size: 14px;
+}
+
+#main1child3 {
+  width: 100%;
+  height: 267px;
+  font-size: 18px;
+  color: rgb(189, 189, 189);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.726);
+  border-radius: 2px;
+}
+
+#main1child3id1 {
+  width: 74.4%;
+  font-size: 15px;
+  color: rgb(145, 145, 145);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  padding-top: 2.5%;
+}
+
+#main1child3id1 a {
+  color: rgb(145, 145, 145);
+}
+
+#main1child3id2 {
+  width: 74.4%;
+  height: 55px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2% auto 0 auto;
+  position: relative;
+}
+
+#main1child3id2 ul {
+  list-style-type: none;
+}
+
+#main1child3ul1 {
+  line-height: 28px;
+}
+
+#main1child3ul2 {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  line-height: 28px;
+}
+
+#main1child3ul3 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  line-height: 28px;
+}
+
+#main1child3ul4 {
+  position: absolute;
+  top: 0;
+  left: 75%;
+  line-height: 28px;
+}
+
+.main1child3ul a {
+  color: rgb(145, 145, 145);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 583px) {
+  body {
+    background-color: black;
+  }
+
+  #main1 {
+    background-color: black;
+  }
+
+  #main1child1 {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #main1child2 {
+    width: 95%;
+  }
+
+  #main1child2id1 {
+    padding: 10% 5%;
+    height: 100%;
+  }
+
+  #main1child3id1 {
+    width: 85%;
+  }
+
+  #main1child3id2 {
+    width: 85%;
+  }
+
+  #main1child3id2 {
+    width: 83%;
+  }
+
+  #main1child3ul1 {
+    line-height: 28px;
+  }
+  
+  #main1child3ul2 {
+    position: absolute;
+    top: 0;
+    left: 55%;
+    line-height: 28px;
+  }
+  
+  #main1child3ul3 {
+    position: absolute;
+    top: 180%;
+    left: 0%;
+    line-height: 28px;
+  }
+
+  #main1child3ul2wrap {
+    white-space: nowrap;
+  }
+  
+  #main1child3ul4 {
+    position: absolute;
+    top: 120%;
+    left: 0%;
+    line-height: 28px;
+  }
+}
