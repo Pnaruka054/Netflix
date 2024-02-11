@@ -353,7 +353,6 @@ body {
 #main6child2 {
   align-items: center;
   width: 100%;
-  margin-top: 15px;
 }
 
 #main6child1 {
@@ -401,18 +400,24 @@ body {
 }
 
 .divjs {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 0px 0px 0px 0px;
   width: 76%;
   background-color: rgb(44, 44, 44);
-  display: none;
+  display: block;
+  max-height: 0px;
+  opacity: 1;
+  overflow: hidden;
   margin-top: 1px;
   margin-right: auto;
   margin-left: auto;
+  transition: padding 0.5s ease, max-height 0.19s linear, opacity 0.1s ease;
 }
 
 .main6div.active1+.divjs {
   display: block;
+  opacity: 1;
+  max-height: 100%;
+  padding: 20px 0px 20px 0px;
 }
 
 .i1 {
