@@ -12,3 +12,12 @@ target.forEach(items => {
         }
     })
 })
+let targetbtn1 = document.querySelector(".btn1")
+targetbtn1.addEventListener("click", () => {
+    document.getElementsByClassName("maindiv")[0].classList.add("active")
+    document.getElementsByClassName("blur1")[0].classList.remove("blur1")
+})
+let targetbtn2 = document.querySelector(".btn2")
+targetbtn2.addEventListener("click", () => {
+    history.back()
+})
