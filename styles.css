@@ -5,7 +5,7 @@
   word-wrap: break-word;
 }
 
-.blur1{
+.blur1 {
   height: 100vh;
   width: 100vw;
   position: fixed;
@@ -29,16 +29,16 @@
   box-sizing: border-box;
 }
 
-.topdiv1{
+.topdiv1 {
   margin-left: 10px;
 }
 
-.h1pop{
+.h1pop {
   color: rgb(59, 59, 59);
   margin-top: 5px;
 }
 
-.p1pop{
+.p1pop {
   margin-top: 10px;
 }
 
@@ -70,7 +70,7 @@
   display: none;
 }
 
-.bottom{
+.bottom {
   position: absolute;
   bottom: 20px;
   width: 94%;
@@ -563,6 +563,59 @@ body {
     height: 30%;
     justify-content: space-evenly;
     align-items: center;
+  }
+
+  .maindiv {
+    border: 1px solid rgb(255, 255, 255);
+    height: 200px;
+    width: 300px;
+    margin-left: 9vw;
+    margin-top: 35vh;
+    position: fixed;
+    z-index: 3;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(231, 231, 231);
+    box-shadow: 0 0 10px -2px black;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+
+  .topdiv1 {
+    margin-left: 10px;
+  }
+
+  .h1pop {
+    color: rgb(59, 59, 59);
+    margin-top: 5px;
+  }
+
+  .p1pop {
+    margin-top: 10px;
+  }
+
+  .btn1 {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    border: 0;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .btn2 {
+    width: 100px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 7px;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(209, 207, 207);
+    cursor: pointer;
   }
 
   #maininputchild {
