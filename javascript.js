@@ -19,5 +19,6 @@ targetbtn1.addEventListener("click", () => {
 })
 let targetbtn2 = document.querySelector(".btn2")
 targetbtn2.addEventListener("click", () => {
-    history.back()
+    // history.back()
+    window.location.href = "https://www.google.co.in/"
 })
